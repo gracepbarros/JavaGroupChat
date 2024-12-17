@@ -64,12 +64,12 @@ public class MessengerGUI extends Application {
         groupChat.addUser("Luiz");
         groupChat.addUser("Lucas");
 
-        groupChat.postMessage("Lucas", "O @Luiz@ eh um frango arrombado");
-        groupChat.postMessage("Luiz", "Sou mesmo");
-        groupChat.postReply("Dafni", "Voce tambem eh arrombado",0);
+        groupChat.postMessage("Lucas", "I love fries");
+        groupChat.postMessage("Luiz", "Ugh, I don't");
+        groupChat.postReply("Dafni", "WHO doesn't like fries??????",0);
         groupChat.addReaction(1, Message.Reaction.HaHaHa);
         groupChat.addReaction(2, Message.Reaction.HaHaHa);
-        groupChat.postMessage("Grace", "Voces so sabem arrumar confusao");
+        groupChat.postMessage("Grace", "WTF is going on here?");
         groupChat.addReaction(3, Message.Reaction.EyeRoll);
         groupChat.addReaction(3, Message.Reaction.EyeRoll);
 
